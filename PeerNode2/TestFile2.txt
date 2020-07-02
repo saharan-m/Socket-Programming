@@ -1,0 +1,5 @@
+In second phase, the Peer_Client will connect to the Relay_Server using the server’s TCP port already known to
+it. After successful connection; it will request the Relay_Server for active Peer_Nodes information (as shown in
+Figure 2). The Relay_Server will response to the Peer_Client with the active Peer_Nodes information currently
+having with it. On receiving the response message from the Relay_Server, the Peer_Client closes the connection
+gracefully.

@@ -1,0 +1,6 @@
+Initially, the Peer_Nodes (peer 1/2/3 as shown in Figure 1) will connect to the Relay_Server using the TCP port
+already known to them. After successful connection, all the Peer_Nodes provide their information (IP address
+and PORT) to the Relay_Server and close the connections (as shown in Figure 1). The Relay_Server actively
+maintains all the received information with it. Now the Peer_Nodes will act as servers and wait to accept
+connection from Peer_Clients (refer phase three).
+

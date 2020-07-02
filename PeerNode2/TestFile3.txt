@@ -1,0 +1,7 @@
+In third phase, a set of files (say, *.txt) are distributed evenly among the three Peer_Nodes. The Peer_Client will
+take “file_Name” as an input from the user. Then it connects to the Peer_Nodes one at a time using the response
+information. After successful connection, the Peer_Client tries to fetches the file from the Peer_Node. If the file is
+present with the Peer_Node, it will provide the file content to the Peer_Client and the Peer_Client will print the
+file content in its terminal. If not, Peer_Client will connect the next Peer_Node and performs the above action.
+This will continue till the Peer_Client gets the file content or all the entries in the Relay_Server Response are
+exhausted (Assume only three/four Peer_Nodes in the system).
